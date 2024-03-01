@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteBase /netology/12/react-observable-main-details/api/
+
+RewriteRule ^(.*)$ services.php?route=$1 [L,QSA]
+
